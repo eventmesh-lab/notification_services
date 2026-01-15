@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\notification_services.api\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.application\\dtos\\enviarcorreopagoexitosodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\dtos\\enviarcorreopagoexitosodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.application\\commands\\commands\\sendemailpaymendnotificationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\commands\\commands\\sendemailpaymendnotificationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\notification_services.api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.application\\commands\\handlers\\sendemailpaymendnotificationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\commands\\handlers\\sendemailpaymendnotificationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.domain\\Events\\IAuditLogCreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\notification_services.domain\\Events\\IAuditLogCreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.application\\commons\\generadorcontenidocorreo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\commons\\generadorcontenidocorreo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendEmailConfirmedReservationHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\notification_services.application\\Commands\\Handlers\\SendEmailConfirmedReservationHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.api\\controllers\\notificationcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|solutionrelative:src\\notification_services.api\\controllers\\notificationcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Controllers\\NotificationControllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\notification_services.api\\Controllers\\NotificationControllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|solutionrelative:src\\notification_services.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.infrastructure\\Services\\SmtpEmailSender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\notification_services.infrastructure\\Services\\SmtpEmailSender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|solutionrelative:src\\notification_services.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A811C634-2C68-ADD5-8FF6-10F19ED27057}|src\\notification_services.domain\\notification_services.domain.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.domain\\events\\iauditlogcreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A811C634-2C68-ADD5-8FF6-10F19ED27057}|src\\notification_services.domain\\notification_services.domain.csproj|solutionrelative:src\\notification_services.domain\\events\\iauditlogcreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.application\\commands\\handlers\\sendemailconfirmedreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\commands\\handlers\\sendemailconfirmedreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1FD6B5-2C49-496C-0E3F-C90269BD694D}|src\\notification_services.infrastructure\\notification_services.infrastructure.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.infrastructure\\services\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA1FD6B5-2C49-496C-0E3F-C90269BD694D}|src\\notification_services.infrastructure\\notification_services.infrastructure.csproj|solutionrelative:src\\notification_services.infrastructure\\services\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +66,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SendEmailPaymendNotificationCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Commands\\SendEmailPaymendNotificationCommand.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.application\\Commands\\Commands\\SendEmailPaymendNotificationCommand.cs",
+              "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Commands\\SendEmailPaymendNotificationCommand.cs",
+              "RelativeToolTip": "src\\notification_services.application\\Commands\\Commands\\SendEmailPaymendNotificationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T19:58:23.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GeneradorContenidoCorreo.cs",
+              "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commons\\GeneradorContenidoCorreo.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.application\\Commons\\GeneradorContenidoCorreo.cs",
+              "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commons\\GeneradorContenidoCorreo.cs",
+              "RelativeToolTip": "src\\notification_services.application\\Commons\\GeneradorContenidoCorreo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T19:52:30.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnviarCorreoPagoExitosoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\DTOs\\EnviarCorreoPagoExitosoDto.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.application\\DTOs\\EnviarCorreoPagoExitosoDto.cs",
+              "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\DTOs\\EnviarCorreoPagoExitosoDto.cs",
+              "RelativeToolTip": "src\\notification_services.application\\DTOs\\EnviarCorreoPagoExitosoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T19:32:16.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "src\\notification_services.api\\Properties\\launchSettings.json",
@@ -67,19 +118,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SendEmailPaymendNotificationHandler.cs",
               "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs",
               "RelativeDocumentMoniker": "src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs",
               "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs",
               "RelativeToolTip": "src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T05:54:06.923Z"
+              "WhenOpened": "2026-01-15T05:54:06.923Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Program.cs",
               "RelativeDocumentMoniker": "src\\notification_services.api\\Program.cs",
@@ -91,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "IAuditLogCreated.cs",
               "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.domain\\Events\\IAuditLogCreated.cs",
               "RelativeDocumentMoniker": "src\\notification_services.domain\\Events\\IAuditLogCreated.cs",
@@ -103,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "SendEmailConfirmedReservationHandler.cs",
               "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendEmailConfirmedReservationHandler.cs",
               "RelativeDocumentMoniker": "src\\notification_services.application\\Commands\\Handlers\\SendEmailConfirmedReservationHandler.cs",
@@ -115,19 +167,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "NotificationControllers.cs",
               "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Controllers\\NotificationControllers.cs",
               "RelativeDocumentMoniker": "src\\notification_services.api\\Controllers\\NotificationControllers.cs",
               "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Controllers\\NotificationControllers.cs",
               "RelativeToolTip": "src\\notification_services.api\\Controllers\\NotificationControllers.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T00:20:14.786Z"
+              "WhenOpened": "2026-01-15T00:20:14.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "SmtpEmailSender.cs",
               "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.infrastructure\\Services\\SmtpEmailSender.cs",
               "RelativeDocumentMoniker": "src\\notification_services.infrastructure\\Services\\SmtpEmailSender.cs",

@@ -10,8 +10,6 @@ namespace notification_services.application.DTOs
     {
         public string Destinatario { get; set; }
         public string MontoPago { get; set; }
-        public string NombreEvento { get; set; }
-        public string IdReserva { get; set; }
         public DateTime FechaPago { get; set; }
     }
 }

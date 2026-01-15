@@ -9,25 +9,25 @@ namespace notification_services.application.Commons
 {
     public static class GeneradorContenidoCorreo
     {
-        public static ContenidoCorreoDTO PagoExitoso(string nombreEvento, string idReserva, string monto, DateTime fechaPago)
+        public static ContenidoCorreoDTO PagoExitoso(string monto, DateTime fechaPago)
         {
             var cuerpo = $@"
                         <p>¡Pago realizado exitosamente! 🎉</p>
-                        <p>Has completado el pago de tu reserva para el evento <strong>{nombreEvento}</strong>.</p>
-                        <p>Detalles de la transacción:</p>
+                        <p>Has completado tu transacción de manera correcta.</p>
+                        <p>Detalles de la operación:</p>
                         <ul>
-                            <li><strong>Número de reserva:</strong> {idReserva}</li>
-                            <li><strong>Monto pagado:</strong> ${monto:F2}</li>
-                            <li><strong>Fecha de pago:</strong> {fechaPago:dd/MM/yyyy}</li>
+                             <li><strong>Monto pagado:</strong> ${monto:F2}</li>
+                             <li><strong>Fecha de pago:</strong> {fechaPago:dd/MM/yyyy}</li>
                         </ul>
-                        <p>A continuación, los pasos para acceder a tus tickets:</p>
+                        <p>A continuación, los pasos para acceder a tu compra:</p>
                         <ol>
-                            <li>Ingresa al módulo de <strong>Mis Reservas</strong> en la plataforma.</li>
-                            <li>Selecciona la reserva correspondiente al evento <strong>{nombreEvento}</strong>.</li>
-                            <li>Visualiza tus tickets electrónicos.</li>
-                            <li>Presenta los tickets en la entrada del evento (impresos o en tu dispositivo móvil).</li>
+                             <li>Ingresa al módulo correspondiente en la plataforma.</li>
+                             <li>Selecciona la transacción realizada.</li>
+                             <li>Visualiza el comprobante o acceso electrónico.</li>
+                             <li>Utiliza el comprobante según las instrucciones indicadas.</li>
                         </ol>
-                        <p>Gracias por tu compra. ¡Nos vemos en el evento y esperamos que disfrutes la experiencia!</p>";
+                        <p>Gracias por tu pago. ¡Esperamos que disfrutes la experiencia!</p>";
+  
 
             return new ContenidoCorreoDTO
             {
