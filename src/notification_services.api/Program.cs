@@ -1,4 +1,7 @@
+using MassTransit;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using notification_services.application.Commands.Commands;
 using notification_services.application.Commands.Handlers;
 using notification_services.application.Interfaces;
@@ -7,11 +10,24 @@ using notification_services.infrastructure.Hubs;
 using notification_services.infrastructure.Persistence.Context;
 using notification_services.infrastructure.Persistence.Repositories;
 using notification_services.infrastructure.RealTime;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
 using notification_services.infrastructure.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddMassTransit(x =>
+{
+
+    x.UsingRabbitMq((context, cfg) =>
+    {
+        cfg.Host("localhost", "/", h =>
+        {
+            h.Username("guest");
+            h.Password("guest");
+        });
+
+    });
+});
+
 
 builder.Services.AddAuthentication(options =>
     {

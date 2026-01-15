@@ -5,7 +5,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
+using Events.Shared;
+using MassTransit;
 using notification_services.application.Commands.Commands;
 using notification_services.application.Interfaces;
 using notification_services.domain.Entities;
@@ -15,10 +18,11 @@ namespace notification_services.application.Commands.Handlers
     public class SendEmailPaymendNotificationHandler : IRequestHandler<SendEmailPaymendNotificationCommand, bool>
     {
         private readonly IEmailSender _emailSender;
-
-        public SendEmailPaymendNotificationHandler(IEmailSender emailSender)
+        private readonly IPublishEndpoint _publishEndpoint;
+        public SendEmailPaymendNotificationHandler(IEmailSender emailSender, IPublishEndpoint publishEndpoint)
         {
             _emailSender = emailSender;
+            _publishEndpoint = publishEndpoint;
         }
 
         public async Task<bool> Handle(SendEmailPaymendNotificationCommand request, CancellationToken cancellationToken)
@@ -34,7 +38,16 @@ namespace notification_services.application.Commands.Handlers
 
                 //Se envia el correo personalizado al usuario que pago de la reserva
                 await _emailSender.SendEmailAsync(notificacion);
-
+                await _publishEndpoint.Publish<IAuditLogCreated>(new
+                {
+                    Id = Guid.NewGuid(),
+                    ServicioOrigen = "notification_services",
+                    UsuarioId = request.pagoDto.Destinatario,
+                    TipoAccion = "Registro de pago",
+                    Datos = JsonSerializer.Serialize(new { Accion = "notificacion de pago realizado via Correo" }),
+                    FechaOcurrencia = DateTime.UtcNow,
+                    Nivel = "Info"
+                }, cancellationToken);
                 return true;
 
             }

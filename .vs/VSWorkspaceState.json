@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\notification_services.domain",
+    "\\src\\notification_services.domain\\Entities",
+    "\\src\\notification_services.domain\\Events",
+    "\\src\\notification_services.infrastructure",
+    "\\src\\notification_services.infrastructure\\Hubs",
+    "\\src\\notification_services.infrastructure\\Persistence",
+    "\\src\\notification_services.infrastructure\\RealTime",
+    "\\src\\notification_services.infrastructure\\Services"
+  ],
+  "SelectedNode": "\\src\\notification_services.application\\Commands\\Handlers\\SendEmailConfirmedReservationHandler.cs",
+  "PreviewInSolutionExplorer": false
+}

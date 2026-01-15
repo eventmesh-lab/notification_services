@@ -1,16 +1,19 @@
-﻿using MediatR;
+﻿using Events.Shared;
+using MassTransit;
+using MediatR;
+using notification_services.application.Commands.Commands;
 using notification_services.application.Commands.Commands;
 using notification_services.application.Commons;
+using notification_services.application.Interfaces;
+using notification_services.domain.Entities;
 using notification_services.domain.Entities;
 using notification_services.domain.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
-using notification_services.application.Commands.Commands;
-using notification_services.application.Interfaces;
-using notification_services.domain.Entities;
 
 namespace notification_services.application.Commands.Handlers
 {
@@ -18,9 +21,12 @@ namespace notification_services.application.Commands.Handlers
     {
         private readonly IEmailSender _emailSender;
 
-        public SendEmailConfirmedReservationHandler(IEmailSender emailSender)
+        private readonly IPublishEndpoint _publishEndpoint;
+
+        public SendEmailConfirmedReservationHandler(IEmailSender emailSender, IPublishEndpoint publishEndpoint)
         {
             _emailSender = emailSender;
+            _publishEndpoint = publishEndpoint;
         }
 
         public async Task<bool> Handle(SendEmailConfirmedReservationCommand request, CancellationToken cancellationToken)
@@ -39,7 +45,16 @@ namespace notification_services.application.Commands.Handlers
 
                 //Se envia el correo personalizado al usuario que reservo tickets
                 await _emailSender.SendEmailAsync(notificacion);
-
+                await _publishEndpoint.Publish<IAuditLogCreated>(new
+                {
+                    Id = Guid.NewGuid(),
+                    ServicioOrigen = "notification_services",
+                    UsuarioId = request.Dto.Destinatario,
+                    TipoAccion = "Registro de pago",
+                    Datos = JsonSerializer.Serialize(new { Accion = "notificacion de pago realizado via SignalR" }),
+                    FechaOcurrencia = DateTime.UtcNow,
+                    Nivel = "Info"
+                }, cancellationToken);
                 return true;
 
             }
