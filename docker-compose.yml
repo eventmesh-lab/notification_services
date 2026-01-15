@@ -1,0 +1,64 @@
+services:
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: notification-service
+    volumes:
+      - notification_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d notification-service"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+      # Cookie fijo para evitar regeneraciones y facilitar arranque
+      RABBITMQ_ERLANG_COOKIE: "local-dev-cookie-please-change"
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    healthcheck:
+      test: ["CMD-SHELL", "rabbitmq-diagnostics -q ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  notification:
+    build:
+      context: .
+      args:
+        APP_PORT: 7184
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+
+      # Postgres (adentro de Docker NO uses localhost)
+      ConnectionStrings__ConnectionPostgre: "Host=db;Port=5432;Database=notification-service;Username=postgres;Password=postgres"
+
+      # RabbitMQ (antes estaba hardcodeado a localhost)
+      RabbitMq__Host: rabbitmq
+      RabbitMq__Username: guest
+      RabbitMq__Password: guest
+
+      # SMTP: recomendable pasarlo por variables y NO dejar secretos en el repo
+      # Smtp__Host: smtp.gmail.com
+      # Smtp__Port: "587"
+      # Smtp__User: ${SMTP_USER}
+      # Smtp__Password: ${SMTP_PASSWORD}
+      # Smtp__From: ${SMTP_FROM}
+    ports:
+      - "7184:7184"
+    depends_on:
+      db:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    restart: on-failure
+
+volumes:
+  notification_pgdata:

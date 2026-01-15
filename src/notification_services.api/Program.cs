@@ -17,12 +17,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddMassTransit(x =>
 {
 
+    var rabbitHost = builder.Configuration["RabbitMq:Host"] ?? "localhost";
+    var rabbitUsername = builder.Configuration["RabbitMq:Username"] ?? "guest";
+    var rabbitPassword = builder.Configuration["RabbitMq:Password"] ?? "guest";
+
     x.UsingRabbitMq((context, cfg) =>
     {
-        cfg.Host("localhost", "/", h =>
+        cfg.Host(rabbitHost, "/", h =>
         {
-            h.Username("guest");
-            h.Password("guest");
+            h.Username(rabbitUsername);
+            h.Password(rabbitPassword);
         });
 
     });
@@ -36,12 +40,12 @@ builder.Services.AddAuthentication(options =>
     })
     .AddJwtBearer(options =>
     {
-        // A. Configura aquí tu URL de Keycloak
+        // A. Configura aquï¿½ tu URL de Keycloak
         // Ejemplo: "http://localhost:8080/realms/tu-realm"
         options.Authority = builder.Configuration["Jwt:Authority"] ?? "http://localhost:8080/realms/myrealm";
-        options.RequireHttpsMetadata = false; // Pon true en producción
+        options.RequireHttpsMetadata = false; // Pon true en producciï¿½n
 
-        // B. Configuración para validar el token
+        // B. Configuraciï¿½n para validar el token
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
@@ -49,7 +53,7 @@ builder.Services.AddAuthentication(options =>
             ValidAudience = "account", // O el ClientId de tu Keycloak
             ValidateLifetime = true,
 
-            // ¡IMPORTANTE! Esto hace que SignalR use el campo 'sub' como el ID del usuario
+            // ï¿½IMPORTANTE! Esto hace que SignalR use el campo 'sub' como el ID del usuario
             NameClaimType = "sub"
         };
 
@@ -105,7 +109,7 @@ builder.Services.AddScoped<INotificationRepositoryPostgres, NotificationReposito
 builder.Services.AddScoped<IRealTimeNotifier, SignalRNotifier>();
 builder.Services.AddScoped<IEmailSender, SmtpEmailSender>();
 
-// Inyección de Dependencias (Vincular Interfaces con Implementaciones)
+// Inyecciï¿½n de Dependencias (Vincular Interfaces con Implementaciones)
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(
     typeof(SendPaymentNotificationCommand).Assembly,
     typeof(SendPaymentNotificationHandler).Assembly));
@@ -116,7 +120,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-app.UseCors("AllowReactApp");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -124,7 +127,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseCors("AllowFrontend");
-app.UseHttpsRedirection();
+if (!app.Environment.IsDevelopment())
+{
+    app.UseHttpsRedirection();
+}
 app.UseAuthentication();
 app.UseAuthorization();
 
