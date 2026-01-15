@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notification_services.domai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notification_services.infrastructure", "src\notification_services.infrastructure\notification_services.infrastructure.csproj", "{FA1FD6B5-2C49-496C-0E3F-C90269BD694D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notification_services.api.Tests", "tests\notification_services.api.Tests\notification_services.api.Tests.csproj", "{E43F3CE3-1F1A-4C96-AD1B-D81943F37C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notification_servicess.application.Tests", "tests\notification_servicess.application.Tests\notification_servicess.application.Tests.csproj", "{EA63E38B-AB9E-490C-A3C3-3AC11C662524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notification_services.infrastructure.Tests", "tests\notification_services.infrastructure.Tests\notification_services.infrastructure.Tests.csproj", "{DBE7E74B-5ED1-48E6-82FF-76EDED12004A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +41,18 @@ Global
 		{FA1FD6B5-2C49-496C-0E3F-C90269BD694D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA1FD6B5-2C49-496C-0E3F-C90269BD694D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA1FD6B5-2C49-496C-0E3F-C90269BD694D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E43F3CE3-1F1A-4C96-AD1B-D81943F37C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E43F3CE3-1F1A-4C96-AD1B-D81943F37C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E43F3CE3-1F1A-4C96-AD1B-D81943F37C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E43F3CE3-1F1A-4C96-AD1B-D81943F37C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA63E38B-AB9E-490C-A3C3-3AC11C662524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA63E38B-AB9E-490C-A3C3-3AC11C662524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA63E38B-AB9E-490C-A3C3-3AC11C662524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA63E38B-AB9E-490C-A3C3-3AC11C662524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE7E74B-5ED1-48E6-82FF-76EDED12004A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE7E74B-5ED1-48E6-82FF-76EDED12004A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE7E74B-5ED1-48E6-82FF-76EDED12004A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE7E74B-5ED1-48E6-82FF-76EDED12004A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
