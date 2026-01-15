@@ -1,46 +1,110 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\",
+  "WorkspaceRootPath": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.application\\dtos\\enviarcorreopagoexitosodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\dtos\\enviarcorreopagoexitosodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBE7E74B-5ED1-48E6-82FF-76EDED12004A}|tests\\notification_services.infrastructure.Tests\\notification_services.infrastructure.Tests.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\tests\\notification_services.infrastructure.tests\\realtime\\signalrnotifiertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE7E74B-5ED1-48E6-82FF-76EDED12004A}|tests\\notification_services.infrastructure.Tests\\notification_services.infrastructure.Tests.csproj|solutionrelative:tests\\notification_services.infrastructure.tests\\realtime\\signalrnotifiertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.application\\commands\\commands\\sendemailpaymendnotificationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBE7E74B-5ED1-48E6-82FF-76EDED12004A}|tests\\notification_services.infrastructure.Tests\\notification_services.infrastructure.Tests.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\tests\\notification_services.infrastructure.tests\\services\\smtpemailsendertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE7E74B-5ED1-48E6-82FF-76EDED12004A}|tests\\notification_services.infrastructure.Tests\\notification_services.infrastructure.Tests.csproj|solutionrelative:tests\\notification_services.infrastructure.tests\\services\\smtpemailsendertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1FD6B5-2C49-496C-0E3F-C90269BD694D}|src\\notification_services.infrastructure\\notification_services.infrastructure.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.infrastructure\\services\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA1FD6B5-2C49-496C-0E3F-C90269BD694D}|src\\notification_services.infrastructure\\notification_services.infrastructure.csproj|solutionrelative:src\\notification_services.infrastructure\\services\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1FD6B5-2C49-496C-0E3F-C90269BD694D}|src\\notification_services.infrastructure\\notification_services.infrastructure.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.infrastructure\\persistence\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA1FD6B5-2C49-496C-0E3F-C90269BD694D}|src\\notification_services.infrastructure\\notification_services.infrastructure.csproj|solutionrelative:src\\notification_services.infrastructure\\persistence\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\tests\\notification_servicess.application.tests\\commands\\command\\sendconfirmedreservationcommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|solutionrelative:tests\\notification_servicess.application.tests\\commands\\command\\sendconfirmedreservationcommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\tests\\notification_servicess.application.tests\\commands\\command\\sendpaymentnotificationcommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|solutionrelative:tests\\notification_servicess.application.tests\\commands\\command\\sendpaymentnotificationcommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\tests\\notification_servicess.application.tests\\commands\\command\\sendemailconfirmedreservationcommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|solutionrelative:tests\\notification_servicess.application.tests\\commands\\command\\sendemailconfirmedreservationcommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.application\\commands\\commands\\sendemailpaymendnotificationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\commands\\commands\\sendemailpaymendnotificationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.application\\commands\\handlers\\sendemailpaymendnotificationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.application\\commands\\commands\\sendemailconfirmedreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\commands\\commands\\sendemailconfirmedreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.application\\commands\\commands\\sendconfirmedreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\commands\\commands\\sendconfirmedreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\tests\\notification_servicess.application.tests\\commands\\handler\\sendpaymentnotificationhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|solutionrelative:tests\\notification_servicess.application.tests\\commands\\handler\\sendpaymentnotificationhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.application\\commands\\handlers\\sendpaymentnotificationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\commands\\handlers\\sendpaymentnotificationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\tests\\notification_servicess.application.tests\\commands\\handler\\sendemailpaymendnotificationhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|solutionrelative:tests\\notification_servicess.application.tests\\commands\\handler\\sendemailpaymendnotificationhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.application\\commands\\handlers\\sendemailpaymendnotificationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\commands\\handlers\\sendemailpaymendnotificationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.application\\commons\\generadorcontenidocorreo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\commons\\generadorcontenidocorreo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\tests\\notification_servicess.application.tests\\commands\\handler\\sendemailconfirmedreservationhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|solutionrelative:tests\\notification_servicess.application.tests\\commands\\handler\\sendemailconfirmedreservationhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.api\\controllers\\notificationcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|solutionrelative:src\\notification_services.api\\controllers\\notificationcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\tests\\notification_servicess.application.tests\\commands\\handler\\sendconfirmedreservationhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA63E38B-AB9E-490C-A3C3-3AC11C662524}|tests\\notification_servicess.application.Tests\\notification_servicess.application.Tests.csproj|solutionrelative:tests\\notification_servicess.application.tests\\commands\\handler\\sendconfirmedreservationhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|solutionrelative:src\\notification_services.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|solutionrelative:src\\notification_services.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A811C634-2C68-ADD5-8FF6-10F19ED27057}|src\\notification_services.domain\\notification_services.domain.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.domain\\events\\iauditlogcreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A811C634-2C68-ADD5-8FF6-10F19ED27057}|src\\notification_services.domain\\notification_services.domain.csproj|solutionrelative:src\\notification_services.domain\\events\\iauditlogcreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.application\\commands\\handlers\\sendemailconfirmedreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.application\\commands\\handlers\\sendemailconfirmedreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\commands\\handlers\\sendemailconfirmedreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA1FD6B5-2C49-496C-0E3F-C90269BD694D}|src\\notification_services.infrastructure\\notification_services.infrastructure.csproj|c:\\users\\crismary gonzalez\\documents\\github\\notification_services\\src\\notification_services.infrastructure\\services\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA1FD6B5-2C49-496C-0E3F-C90269BD694D}|src\\notification_services.infrastructure\\notification_services.infrastructure.csproj|solutionrelative:src\\notification_services.infrastructure\\services\\smtpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.application\\commands\\handlers\\sendconfirmedreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\commands\\handlers\\sendconfirmedreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43F3CE3-1F1A-4C96-AD1B-D81943F37C18}|tests\\notification_services.api.Tests\\notification_services.api.Tests.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\tests\\notification_services.api.tests\\controllers\\notificationcontrollerstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E43F3CE3-1F1A-4C96-AD1B-D81943F37C18}|tests\\notification_services.api.Tests\\notification_services.api.Tests.csproj|solutionrelative:tests\\notification_services.api.tests\\controllers\\notificationcontrollerstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.application\\dtos\\paymentsuccessnotificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\dtos\\paymentsuccessnotificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.application\\dtos\\confirmedreservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\dtos\\confirmedreservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.api\\controllers\\notificationcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|solutionrelative:src\\notification_services.api\\controllers\\notificationcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.application\\dtos\\enviarcorreopagoexitosodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0431B507-3EE3-45EF-B105-304D7F28DBFD}|src\\notification_services.application\\notification_services.application.csproj|solutionrelative:src\\notification_services.application\\dtos\\enviarcorreopagoexitosodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|solutionrelative:src\\notification_services.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0000D38-2B89-8B56-A98C-546ACE485989}|src\\notification_services.api\\notification_services.api.csproj|solutionrelative:src\\notification_services.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A811C634-2C68-ADD5-8FF6-10F19ED27057}|src\\notification_services.domain\\notification_services.domain.csproj|c:\\users\\adbla\\documents\\github\\notification_services\\src\\notification_services.domain\\events\\iauditlogcreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A811C634-2C68-ADD5-8FF6-10F19ED27057}|src\\notification_services.domain\\notification_services.domain.csproj|solutionrelative:src\\notification_services.domain\\events\\iauditlogcreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,12 +113,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 421,
           "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
@@ -62,41 +126,296 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignalRNotifierTest.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_services.infrastructure.Tests\\RealTime\\SignalRNotifierTest.cs",
+              "RelativeDocumentMoniker": "tests\\notification_services.infrastructure.Tests\\RealTime\\SignalRNotifierTest.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_services.infrastructure.Tests\\RealTime\\SignalRNotifierTest.cs",
+              "RelativeToolTip": "tests\\notification_services.infrastructure.Tests\\RealTime\\SignalRNotifierTest.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:54:36.192Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SmtpEmailSenderTest.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_services.infrastructure.Tests\\Services\\SmtpEmailSenderTest.cs",
+              "RelativeDocumentMoniker": "tests\\notification_services.infrastructure.Tests\\Services\\SmtpEmailSenderTest.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_services.infrastructure.Tests\\Services\\SmtpEmailSenderTest.cs",
+              "RelativeToolTip": "tests\\notification_services.infrastructure.Tests\\Services\\SmtpEmailSenderTest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:53:01.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.infrastructure\\Persistence\\Repositories\\NotificationRepository.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.infrastructure\\Persistence\\Repositories\\NotificationRepository.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.infrastructure\\Persistence\\Repositories\\NotificationRepository.cs",
+              "RelativeToolTip": "src\\notification_services.infrastructure\\Persistence\\Repositories\\NotificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:38:38.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SendConfirmedReservationCommandTest.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Command\\SendConfirmedReservationCommandTest.cs",
+              "RelativeDocumentMoniker": "tests\\notification_servicess.application.Tests\\Commands\\Command\\SendConfirmedReservationCommandTest.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Command\\SendConfirmedReservationCommandTest.cs",
+              "RelativeToolTip": "tests\\notification_servicess.application.Tests\\Commands\\Command\\SendConfirmedReservationCommandTest.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:40:08.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmtpEmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.infrastructure\\Services\\SmtpEmailSender.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.infrastructure\\Services\\SmtpEmailSender.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.infrastructure\\Services\\SmtpEmailSender.cs",
+              "RelativeToolTip": "src\\notification_services.infrastructure\\Services\\SmtpEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T20:29:57.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SendPaymentNotificationCommandTest.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Command\\SendPaymentNotificationCommandTest.cs",
+              "RelativeDocumentMoniker": "tests\\notification_servicess.application.Tests\\Commands\\Command\\SendPaymentNotificationCommandTest.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Command\\SendPaymentNotificationCommandTest.cs",
+              "RelativeToolTip": "tests\\notification_servicess.application.Tests\\Commands\\Command\\SendPaymentNotificationCommandTest.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:43:09.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SendEmailConfirmedReservationCommandTest.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Command\\SendEmailConfirmedReservationCommandTest.cs",
+              "RelativeDocumentMoniker": "tests\\notification_servicess.application.Tests\\Commands\\Command\\SendEmailConfirmedReservationCommandTest.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Command\\SendEmailConfirmedReservationCommandTest.cs",
+              "RelativeToolTip": "tests\\notification_servicess.application.Tests\\Commands\\Command\\SendEmailConfirmedReservationCommandTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:41:51.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SendEmailConfirmedReservationCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Commands\\SendEmailConfirmedReservationCommand.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.application\\Commands\\Commands\\SendEmailConfirmedReservationCommand.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Commands\\SendEmailConfirmedReservationCommand.cs",
+              "RelativeToolTip": "src\\notification_services.application\\Commands\\Commands\\SendEmailConfirmedReservationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:41:34.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SendEmailPaymendNotificationCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Commands\\SendEmailPaymendNotificationCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Commands\\SendEmailPaymendNotificationCommand.cs",
               "RelativeDocumentMoniker": "src\\notification_services.application\\Commands\\Commands\\SendEmailPaymendNotificationCommand.cs",
-              "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Commands\\SendEmailPaymendNotificationCommand.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Commands\\SendEmailPaymendNotificationCommand.cs",
               "RelativeToolTip": "src\\notification_services.application\\Commands\\Commands\\SendEmailPaymendNotificationCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T19:58:23.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GeneradorContenidoCorreo.cs",
-              "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commons\\GeneradorContenidoCorreo.cs",
-              "RelativeDocumentMoniker": "src\\notification_services.application\\Commons\\GeneradorContenidoCorreo.cs",
-              "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commons\\GeneradorContenidoCorreo.cs",
-              "RelativeToolTip": "src\\notification_services.application\\Commons\\GeneradorContenidoCorreo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABeAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "SendPaymentNotificationHandlerTest.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendPaymentNotificationHandlerTest.cs",
+              "RelativeDocumentMoniker": "tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendPaymentNotificationHandlerTest.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendPaymentNotificationHandlerTest.cs",
+              "RelativeToolTip": "tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendPaymentNotificationHandlerTest.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwCEAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T19:52:30.771Z",
+              "WhenOpened": "2026-01-15T22:38:55.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
+              "Title": "SendPaymentNotificationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendPaymentNotificationHandler.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.application\\Commands\\Handlers\\SendPaymentNotificationHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendPaymentNotificationHandler.cs",
+              "RelativeToolTip": "src\\notification_services.application\\Commands\\Handlers\\SendPaymentNotificationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:38:19.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SendConfirmedReservationCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Commands\\SendConfirmedReservationCommand.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.application\\Commands\\Commands\\SendConfirmedReservationCommand.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Commands\\SendConfirmedReservationCommand.cs",
+              "RelativeToolTip": "src\\notification_services.application\\Commands\\Commands\\SendConfirmedReservationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:35:33.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SendEmailPaymendNotificationHandlerTest.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendEmailPaymendNotificationHandlerTest.cs",
+              "RelativeDocumentMoniker": "tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendEmailPaymendNotificationHandlerTest.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendEmailPaymendNotificationHandlerTest.cs",
+              "RelativeToolTip": "tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendEmailPaymendNotificationHandlerTest.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:38:10.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SendEmailConfirmedReservationHandlerTest.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendEmailConfirmedReservationHandlerTest.cs",
+              "RelativeDocumentMoniker": "tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendEmailConfirmedReservationHandlerTest.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendEmailConfirmedReservationHandlerTest.cs",
+              "RelativeToolTip": "tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendEmailConfirmedReservationHandlerTest.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwCEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:37:18.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SendConfirmedReservationHandlerTest.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendConfirmedReservationHandlerTest.cs",
+              "RelativeDocumentMoniker": "tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendConfirmedReservationHandlerTest.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendConfirmedReservationHandlerTest.cs",
+              "RelativeToolTip": "tests\\notification_servicess.application.Tests\\Commands\\Handler\\SendConfirmedReservationHandlerTest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAewDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:36:05.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SendConfirmedReservationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendConfirmedReservationHandler.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.application\\Commands\\Handlers\\SendConfirmedReservationHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendConfirmedReservationHandler.cs",
+              "RelativeToolTip": "src\\notification_services.application\\Commands\\Handlers\\SendConfirmedReservationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:35:37.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SendEmailPaymendNotificationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs",
+              "RelativeToolTip": "src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T05:54:06.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SendEmailConfirmedReservationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendEmailConfirmedReservationHandler.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.application\\Commands\\Handlers\\SendEmailConfirmedReservationHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendEmailConfirmedReservationHandler.cs",
+              "RelativeToolTip": "src\\notification_services.application\\Commands\\Handlers\\SendEmailConfirmedReservationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T05:37:23.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaymentSuccessNotificationDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\DTOs\\PaymentSuccessNotificationDto.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.application\\DTOs\\PaymentSuccessNotificationDto.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\DTOs\\PaymentSuccessNotificationDto.cs",
+              "RelativeToolTip": "src\\notification_services.application\\DTOs\\PaymentSuccessNotificationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:31:09.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NotificationControllersTest.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_services.api.Tests\\Controllers\\NotificationControllersTest.cs",
+              "RelativeDocumentMoniker": "tests\\notification_services.api.Tests\\Controllers\\NotificationControllersTest.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\tests\\notification_services.api.Tests\\Controllers\\NotificationControllersTest.cs",
+              "RelativeToolTip": "tests\\notification_services.api.Tests\\Controllers\\NotificationControllersTest.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwB0AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:29:41.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ConfirmedReservationDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\DTOs\\ConfirmedReservationDto.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.application\\DTOs\\ConfirmedReservationDto.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\DTOs\\ConfirmedReservationDto.cs",
+              "RelativeToolTip": "src\\notification_services.application\\DTOs\\ConfirmedReservationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:33:15.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "EnviarCorreoPagoExitosoDto.cs",
-              "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\DTOs\\EnviarCorreoPagoExitosoDto.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\DTOs\\EnviarCorreoPagoExitosoDto.cs",
               "RelativeDocumentMoniker": "src\\notification_services.application\\DTOs\\EnviarCorreoPagoExitosoDto.cs",
-              "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\DTOs\\EnviarCorreoPagoExitosoDto.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\DTOs\\EnviarCorreoPagoExitosoDto.cs",
               "RelativeToolTip": "src\\notification_services.application\\DTOs\\EnviarCorreoPagoExitosoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -105,11 +424,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 21,
+              "Title": "NotificationControllers.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Controllers\\NotificationControllers.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.api\\Controllers\\NotificationControllers.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Controllers\\NotificationControllers.cs",
+              "RelativeToolTip": "src\\notification_services.api\\Controllers\\NotificationControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T00:20:14.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "src\\notification_services.api\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Properties\\launchSettings.json",
               "RelativeToolTip": "src\\notification_services.api\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -118,77 +450,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SendEmailPaymendNotificationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs",
-              "RelativeDocumentMoniker": "src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs",
-              "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs*",
-              "RelativeToolTip": "src\\notification_services.application\\Commands\\Handlers\\SendEmailPaymendNotificationHandler.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T05:54:06.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Program.cs",
               "RelativeDocumentMoniker": "src\\notification_services.api\\Program.cs",
-              "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Program.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Program.cs",
               "RelativeToolTip": "src\\notification_services.api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T05:44:19.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IAuditLogCreated.cs",
-              "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.domain\\Events\\IAuditLogCreated.cs",
-              "RelativeDocumentMoniker": "src\\notification_services.domain\\Events\\IAuditLogCreated.cs",
-              "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.domain\\Events\\IAuditLogCreated.cs",
-              "RelativeToolTip": "src\\notification_services.domain\\Events\\IAuditLogCreated.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T05:41:28.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SendEmailConfirmedReservationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendEmailConfirmedReservationHandler.cs",
-              "RelativeDocumentMoniker": "src\\notification_services.application\\Commands\\Handlers\\SendEmailConfirmedReservationHandler.cs",
-              "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.application\\Commands\\Handlers\\SendEmailConfirmedReservationHandler.cs",
-              "RelativeToolTip": "src\\notification_services.application\\Commands\\Handlers\\SendEmailConfirmedReservationHandler.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAADUAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T05:37:23.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NotificationControllers.cs",
-              "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Controllers\\NotificationControllers.cs",
-              "RelativeDocumentMoniker": "src\\notification_services.api\\Controllers\\NotificationControllers.cs",
-              "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.api\\Controllers\\NotificationControllers.cs",
-              "RelativeToolTip": "src\\notification_services.api\\Controllers\\NotificationControllers.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T00:20:14.786Z",
+              "WhenOpened": "2026-01-15T05:44:19.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SmtpEmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.infrastructure\\Services\\SmtpEmailSender.cs",
-              "RelativeDocumentMoniker": "src\\notification_services.infrastructure\\Services\\SmtpEmailSender.cs",
-              "ToolTip": "C:\\Users\\Crismary Gonzalez\\Documents\\GitHub\\notification_services\\src\\notification_services.infrastructure\\Services\\SmtpEmailSender.cs",
-              "RelativeToolTip": "src\\notification_services.infrastructure\\Services\\SmtpEmailSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "IAuditLogCreated.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.domain\\Events\\IAuditLogCreated.cs",
+              "RelativeDocumentMoniker": "src\\notification_services.domain\\Events\\IAuditLogCreated.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\notification_services\\src\\notification_services.domain\\Events\\IAuditLogCreated.cs",
+              "RelativeToolTip": "src\\notification_services.domain\\Events\\IAuditLogCreated.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T20:29:57.469Z"
+              "WhenOpened": "2026-01-15T05:41:28.667Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 114,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{da1e233c-cfa8-5021-b06c-abc3d02f44e8}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 15,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
