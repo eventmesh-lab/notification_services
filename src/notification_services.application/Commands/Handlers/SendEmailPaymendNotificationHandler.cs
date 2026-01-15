@@ -31,7 +31,7 @@ namespace notification_services.application.Commands.Handlers
             try
             {
                 // Se genera el contenido del correo a enviar.
-                var contenidoCorreo = GeneradorContenidoCorreo.PagoExitoso(request.pagoDto.NombreEvento, request.pagoDto.IdReserva, request.pagoDto.MontoPago, request.pagoDto.FechaPago);
+                var contenidoCorreo = GeneradorContenidoCorreo.PagoExitoso(request.pagoDto.MontoPago, request.pagoDto.FechaPago);
 
                 //Se crea la instancia de la entidad Notificacion
                 var notificacion = new Notification(new DestinatarioNotificacionVO(request.pagoDto.Destinatario), new ContenidoNotificacionVO(contenidoCorreo.Html), new AsuntoNotificacionVO(contenidoCorreo.Asunto));
